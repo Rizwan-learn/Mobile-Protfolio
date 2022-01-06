@@ -8,7 +8,6 @@
   top: 0;
   background: #3c3a39;
   z-index: 2;
-  
 }
 
 .header {
@@ -34,22 +33,20 @@
   right: 0;
 }
 
-.app-homepage{
+.app-homepage {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 120px 24px;
-
   position: absolute;
   width: 375px;
   height: 590px;
-  left: 0px;
+  left: 0;
   top: 92px;
   background: #1c1a19;
-
 }
 
-h1{
+h1 {
   width: 327px;
   height: 124px;
   top: 120px;
@@ -61,7 +58,8 @@ h1{
   letter-spacing: 0.37px;
   color: #ff6b00;
 }
-h2{
+
+h2 {
   position: static;
   width: 372px;
   height: 27px;
@@ -73,9 +71,10 @@ h2{
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #FFF5E1;
+  color: #fff5e1;
 }
-h3{
+
+h3 {
   position: static;
   width: 327px;
   height: 123px;
@@ -85,43 +84,39 @@ h3{
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
-ul{
+ul {
   list-style: none;
   flex-direction: column;
   justify-content: flex-start;
-
 }
 
-.github{
+.github {
   position: absolute;
   width: 17.99px;
   left: 0.08%;
   right: 0.01%;
-  
 }
-.link{
-  position: absolute ;
+
+.link {
+  position: absolute;
   left: 20%;
   right: 75%;
 }
-.twitter{
 
-    position: absolute ;
-    left: 40%;
-    right: 75%;
- 
+.twitter {
+  position: absolute;
+  left: 40%;
+  right: 75%;
 }
 
-.background{
-
-  position: absolute ;
-    left: 64%;
-    top: 80%;
-    width: 1139.56px;
-    height: 93.78px;
-    z-index: 3;
+.background {
+  position: absolute;
+  left: 64%;
+  top: 80%;
+  width: 1139.56px;
+  height: 93.78px;
+  z-index: 3;
 }
-
